@@ -39,7 +39,7 @@
             label1.AutoSize = true;
             label1.Location = new Point(69, 65);
             label1.Name = "label1";
-            label1.Size = new Size(192, 28);
+            label1.Size = new Size(153, 21);
             label1.TabIndex = 0;
             label1.Text = "กรอกตัวเลข key down";
             // 
@@ -48,7 +48,7 @@
             label2.AutoSize = true;
             label2.Location = new Point(74, 122);
             label2.Name = "label2";
-            label2.Size = new Size(187, 28);
+            label2.Size = new Size(151, 21);
             label2.TabIndex = 1;
             label2.Text = "กรอกตัวเลข key Press";
             // 
@@ -56,7 +56,7 @@
             // 
             textBox1.Location = new Point(295, 65);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(303, 34);
+            textBox1.Size = new Size(303, 29);
             textBox1.TabIndex = 2;
             textBox1.KeyDown += textBox1_KeyDown;
             // 
@@ -64,13 +64,13 @@
             // 
             textBox2.Location = new Point(295, 122);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(303, 34);
+            textBox2.Size = new Size(303, 29);
             textBox2.TabIndex = 3;
             textBox2.KeyPress += textBox2_KeyPress;
             // 
             // Form4
             // 
-            AutoScaleDimensions = new SizeF(11F, 28F);
+            AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(743, 219);
             Controls.Add(textBox2);
@@ -81,6 +81,7 @@
             Margin = new Padding(4);
             Name = "Form4";
             Text = "Form4";
+            Load += Form4_Load;
             MouseMove += Form4_MouseMove;
             ResumeLayout(false);
             PerformLayout();

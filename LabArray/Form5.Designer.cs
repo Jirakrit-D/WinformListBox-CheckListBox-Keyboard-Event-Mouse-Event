@@ -38,10 +38,12 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.BackColor = SystemColors.ActiveCaption;
             pictureBox1.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox1.Location = new Point(39, 30);
+            pictureBox1.Location = new Point(34, 22);
+            pictureBox1.Margin = new Padding(3, 2, 3, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(706, 374);
+            pictureBox1.Size = new Size(618, 282);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             pictureBox1.MouseDown += pictureBox1_MouseDown;
@@ -50,9 +52,10 @@
             // cboColor
             // 
             cboColor.FormattingEnabled = true;
-            cboColor.Location = new Point(68, 431);
+            cboColor.Location = new Point(60, 323);
+            cboColor.Margin = new Padding(3, 2, 3, 2);
             cboColor.Name = "cboColor";
-            cboColor.Size = new Size(169, 28);
+            cboColor.Size = new Size(148, 23);
             cboColor.TabIndex = 1;
             cboColor.SelectedIndexChanged += cboColor_SelectedIndexChanged;
             // 
@@ -60,9 +63,9 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Leelawadee UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(39, 431);
+            label1.Location = new Point(34, 323);
             label1.Name = "label1";
-            label1.Size = new Size(23, 28);
+            label1.Size = new Size(19, 21);
             label1.TabIndex = 2;
             label1.Text = "สี";
             // 
@@ -70,31 +73,33 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Leelawadee UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(306, 427);
+            label2.Location = new Point(268, 320);
             label2.Name = "label2";
-            label2.Size = new Size(57, 28);
+            label2.Size = new Size(46, 21);
             label2.TabIndex = 3;
             label2.Text = "ขนาด";
             // 
             // cboWidth
             // 
             cboWidth.FormattingEnabled = true;
-            cboWidth.Location = new Point(387, 431);
+            cboWidth.Location = new Point(339, 323);
+            cboWidth.Margin = new Padding(3, 2, 3, 2);
             cboWidth.Name = "cboWidth";
-            cboWidth.Size = new Size(169, 28);
+            cboWidth.Size = new Size(148, 23);
             cboWidth.TabIndex = 4;
             cboWidth.SelectedIndexChanged += cboWidth_SelectedIndexChanged;
             // 
             // Form5
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 502);
+            ClientSize = new Size(700, 376);
             Controls.Add(cboWidth);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(cboColor);
             Controls.Add(pictureBox1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Form5";
             Text = "Form5";
             Load += Form5_Load;

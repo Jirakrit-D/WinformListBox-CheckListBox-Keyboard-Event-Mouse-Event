@@ -1,4 +1,4 @@
-namespace LabArray
+Ôªønamespace LabArray
 {
     public partial class Form1 : Form
     {
@@ -9,7 +9,7 @@ namespace LabArray
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            string[] products = { "‡À≈È“", "‡∫’¬√Ï", "‚´¥“", "πÈ”Õ—¥≈¡", "°“·ø", "πÈ”‡ª≈Ë“" };
+            string[] products = { "‡πÄ‡∏´‡∏•‡πâ‡∏≤", "‡πÄ‡∏ö‡∏µ‡∏¢‡∏£‡πå", "‡πÇ‡∏ã‡∏î‡∏≤", "‡∏ô‡πâ‡∏≥‡∏≠‡∏±‡∏î‡∏•‡∏°", "‡∏Å‡∏≤‡πÅ‡∏ü", "‡∏ô‡πâ‡∏≥‡πÄ‡∏õ‡∏•‡πà‡∏≤" };
 
             checkedListBox1.Items.AddRange(products);
         }

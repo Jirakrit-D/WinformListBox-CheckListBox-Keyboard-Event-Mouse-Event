@@ -40,5 +40,10 @@ namespace LabArray
             int PosY = e.Y;
             this.Text = "ตำแหน่งของ Mouse Pointer " + "X = " + PosX.ToString() + ", Y =" + PosY.ToString();
         }
+
+        private void Form4_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
